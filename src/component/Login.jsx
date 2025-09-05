@@ -45,7 +45,7 @@ const Login = () => {
                 </div>
 
                 {/*button field */}
-                
+                <button className="w-full px-4 py-2 bg-gradient-to-l from-purple-500 to-pink-600 rounded-full text-white font-semibold">Login</button>
 
 
 
