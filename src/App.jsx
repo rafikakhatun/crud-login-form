@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css'
 import Login from './component/Login'
 import AOS from "aos";
