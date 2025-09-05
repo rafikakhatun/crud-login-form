@@ -37,6 +37,18 @@ const Login = () => {
                 </div>
 
 
+                {/* forgot password field */}
+                <div className="flex justify-end">
+                    <span className="text-sm mb-4 mr-5 text-purple-600 cursor-pointer hover:underline">
+                        Forgot Password?
+                    </span>
+                </div>
+
+                {/*button field */}
+                
+
+
+
 
             </form>
             <div className="p-8 hidden md:flex">
