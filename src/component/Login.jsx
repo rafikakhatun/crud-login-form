@@ -73,10 +73,12 @@ const Login = () => {
 
             </form>
             <div className="p-8 hidden md:flex">
-                <img className="max-w-50 md:max-w-70 " src={loginImage} alt="photo" />
+                <img className="w-[600px] h-[700px] object-center object-fill " src={loginImage} alt="photo" />
 
             </div>
         </section>
+
+
 
 
     );
