@@ -2,7 +2,7 @@ import { CiUser } from "react-icons/ci";
 import loginImage from "../assets/loginImage.png"
 import { RiLockPasswordLine } from "react-icons/ri";
 import { MdOutlineEmail } from "react-icons/md";
-import { FaEnvelope, FaFacebook, FaUser } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaFacebookF, FaUser, } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 
@@ -51,7 +51,7 @@ const Login = () => {
 
                 {/*Register*/}
                 <div className="text-center">
-                    <span className="tracking-wide text-gray-700">Don't Have An Accont? <Link to="" className="font-semibold text-purple-600">Register</Link></span>
+                    <span className="tracking-wide text-gray-700">Don't Have An Accont? <Link to="/Register" className="font-semibold text-purple-600">Register</Link></span>
                 </div>
 
                 {/*login others account */}
@@ -65,7 +65,7 @@ const Login = () => {
                 {/*google and facebook account field */}
                 <div className="flex justify-center space-x-5 ">
                     <button className="flex justify-center gap-2 cursor-pointer w-1/2 px-4 py-3 rounded-full border border-gray-300 shadow-md "><FcGoogle className="text-2xl" />Google</button>
-                    <button className="flex justify-center gap-2 cursor-pointer w-1/2 px-4 py-3 rounded-full border border-gray-300 shadow-md  "><FaFacebook className="text-2xl text-blue-600" />Facebook</button>
+                    <button className="flex justify-center gap-2 cursor-pointer w-1/2 px-4 py-3 rounded-full border border-gray-300 shadow-md  "><FaFacebookF className="text-2xl text-blue-600" />Facebook</button>
                 </div>
 
 
